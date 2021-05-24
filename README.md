@@ -34,12 +34,12 @@ Output:
 #### get_max_association_groups()
 The function get_max_association_groups() takes a group of associated items as an input and returns the largest associated item groups:
 
-- The input associated items doesn't have to be pairs (i.e. it can [itemA, itemB, itemC]) (see test case 3 below)
-- If there are multiple largest associated item groups with the same size, all of them will be returned (see test case 4 below)
+- The input associated items doesn't have to be pairs (i.e. it can [itemA, itemB, itemC]) (see test case 3)
+- If there are multiple largest associated item groups with the same size, all of them will be returned (see test case 4)
 - Breadth First Search method is applied. We can consider the association relationships as a undirected graph. 
   Each item is considered as a vertex and the association relations are considered as edges. Therefore, this questions is actually 
   looking for the largest connected component in the graph.
 - The output will be returned in lexicographically order. It is achieved with the bubble_sort() function. 
   It can be done with the built-in sorted() function as well.
-- There 5 test cases being provided in this script, if you want to define your own test case, please define it 
+- There are 5 test cases being provided in the script, if you want to define your own test case, please define it 
   in section # define your own test case
