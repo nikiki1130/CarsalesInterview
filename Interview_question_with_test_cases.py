@@ -13,7 +13,7 @@ The function get_max_association_groups() takes a group of associated items as a
   looking for the largest connected component in the graph.
 - The output will be in lexicographically order. It is achieved with the bubble_sort() function. 
   It can be done with the built-in sorted() function as well.
-- There 5 test cases being provided in this script, if you want to define your own test case, please define it 
+- There are 5 test cases being provided in this script, if you want to define your own test case, please define it 
   in section # define your own test case
 """
 
